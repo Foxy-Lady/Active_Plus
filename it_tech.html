@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>OOT A3 - IT Tech</title>
+        <link rel="stylesheet" type="text/css" href="it_tech.css">
+        <link href="https://fonts.googleapis.com./css?family=Poppins:600&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="container">
+            <div class="topnav">
+              <a href="index.html"> Home</a>
+              <a href="ideal_Jobs.html"> Ideal Jobs</a>
+              <a href="Industry Data.html"> Industry Data</a>
+              <a href="IT Work.html"> IT Work </a> 
+              <a href="it_tech.html"> IT Tech </a>   
+              <a href="Project Idea.html"> Project Idea </a>  
+              <a href="Feedback.html"> Project Idea </a> 
+            </div>
+        </div>
+     
+       <button class="tablink" onclick="openPage('CLOUD_SERVICES_SERVERS', this, '#ff506e')"id="defaultOpen">CLOUD SERVICES SERVERS</button>
+       <button class="tablink" onclick="openPage('CYBERSECURITY', this, '#AC87FF')">CYBERSECURITY</button>
+       <button class="tablink" onclick="openPage('MACHINE_LEARNING', this, '#F59E0B')">MACHINE LEARNING</button>
+       <button class="tablink" onclick="openPage('AUTONOMOUS_CARS', this, '#2DD4BF')">AUTONOMOUS CARS</button>
+
+    <div id="CLOUD_SERVICES_SERVERS" class="tabcontent">   
+        <div class="container1">
+          <div class="box">
+            <h3>CLOUD COMPUTING</h3>    
+          </div> 
+        </div>
+    </div> 
+     <div id="CYBERSECURITY" class="tabcontent">
+        <div class="container"> 
+          <div class="box">
+            <h3>MANAGEMENT</h3>    
+          </div> 
+        </div>
+     </div>
+      
+     <div id="MACHINE_LEARNING" class="tabcontent">
+        <div class="container1"> 
+            <div class="box">
+               <h3>DRIVELESS CAR</h3>    
+                  
+            </div> 
+          </div>
+      </div>
+
+      <div id="AUTONOMOUS CARS" class="tabcontent">
+        <div class="container1"> 
+            <div class="box">
+               <h3>CYBER SECURITY</h3>    
+                  
+            </div> 
+         </div>
+      </div>
+       
+       <script>
+       function openPage(pageName,elmnt,color) {
+         var i, tabcontent, tablinks;
+         tabcontent = document.getElementsByClassName("tabcontent");
+         for (i = 0; i < tabcontent.length; i++) {
+           tabcontent[i].style.display = "none";
+         }
+         tablinks = document.getElementsByClassName("tablink");
+         for (i = 0; i < tablinks.length; i++) {
+           tablinks[i].style.backgroundColor = "";
+         }
+         document.getElementById(pageName).style.display = "block";
+         elmnt.style.backgroundColor = color;
+       }
+       
+       // Get the element with id="defaultOpen" and click on it
+       document.getElementById("defaultOpen").click();
+       </script>
+          
+       </body>
+       </html> 
+       
