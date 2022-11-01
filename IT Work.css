@@ -1,0 +1,31 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+/* reference : w3shcools.com/howto */
+.topnav {
+    overflow: hidden;
+}
+/* style the links inside of the topnav */
+.topnav a{
+    float: left;
+    color: #454446;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* hover: change the color when mouse sits */
+.topnav a:hover {
+    background-color: #454446;
+    color: white;
+}
