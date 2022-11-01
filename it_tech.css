@@ -54,9 +54,7 @@ body, html {
         color: rgb(71, 68, 68);
     
     }
-       * {box-sizing: border-box}
-       
-       
+       * {box-sizing: border-box} 
        
        /* Style tab links */
        .tablink {
@@ -83,7 +81,7 @@ body, html {
          height: 100%;
        }
        
-       #CLOUD_SERVICES_SERVERS {background-color: #ff506e;}
+       #CLOUD_SERVICES_SERVERS {background-color: #e76a7f;}
        #CYBERSECURITY {background-color: #ac87ff;}
        #MACHINE_LEARNING {background-color: #f59e0b}
        #AUTONOMOUS_CARS{background-color: #2dd4bf;}
