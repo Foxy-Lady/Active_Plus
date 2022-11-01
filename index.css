@@ -45,7 +45,7 @@ body {
   .about-section {
     padding: 50px;
     text-align: center;
-    background-color: #454446;
+    background-color: #269c96;
     color: white;
   }
   
@@ -68,11 +68,13 @@ body {
     outline: 0;
     display: inline-block;
     padding: 10px;
+    margin-bottom: 10px;
     color: white;
     background-color: rgb(73, 71, 71);
     text-align: center;
     cursor: pointer;
     width: 100%;
+    text-decoration: none;
   }
   
   .button:hover {
