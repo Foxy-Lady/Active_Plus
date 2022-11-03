@@ -3,15 +3,11 @@ body {
     margin: 0;
   }
   
-  html {
-    box-sizing: border-box;
-  }
-  
   *, *:before, *:after {
     box-sizing: border-box;
   }
   
-/* reference : w3shcools.com/howto */
+/* reference : w3schools.com/howto */
 .topnav {
     overflow: hidden;
 }
@@ -34,11 +30,13 @@ body {
   .column {
     float: left;
     width: 25%;
-    padding: 0 10px;
+    height: 1300px;
+    padding: 5px 10px;
+    display: table;
   }
   
   /* Remove extra left and right margins, due to padding */
-  .row {margin: 0 -5px;}
+  .row {margin: 0 10px;}
   
   /* Clear floats after the columns */
   .row:after {
@@ -60,6 +58,6 @@ body {
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
-    text-align: center;
-    background-color: #26c0ac;
+    background-color: #269c96;
+    display: table-cell;
   }
