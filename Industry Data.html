@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>IIT A3 Active Plus</title>
+        <link rel="stylesheet" type="text/css" href="Industry Data.css">
+        <link href="https://fonts.googleapis.com./css?family=Poppins:600&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="container">
+            <div class="topnav">
+              <a href="index.html"> Home</a>
+              <a href="ideal_jobs.html"> Ideal Jobs</a>
+              <a href="Industry Data.html"> Industry Data</a>
+              <a href="IT Work.html"> IT Work </a>
+              <a href="it_tech.html"> IT Tech </a>
+              <a href="Project Idea.html"> Project Idea </a>
+              <a href="Feedback.html"> Group Reflection </a>
+            </div>
+        </div>
+       <button class="tablink" onclick="openPage('Active_Plus', this, '#F59E0B')"id="defaultOpen">ACTIVE PLUS IDEAL JOBS</button>
+       <button class="tablink" onclick="openPage('IT_SKILLS', this, '#e76a7f')">IT SPECIFIC SKILLS</button>
+       <button class="tablink" onclick="openPage('GENERAL_SKILL', this, '#AC87FF')">GENERAL SKILLS</button>
+       <button class="tablink" onclick="openPage('FEEDBACK', this, '#2DD4BF')">MEMBERS FEEDBACK</button>
+    
+       <div id="Active_Plus" class="tabcontent">
+        <div class="container1">
+          <div class="box">
+            <h3>Ideal Jobs</h3>
+            <img src="future_job.png" alt="data" style="width:100%">
+            <img src="industry1.png" alt="ideal_jobs" style="width:100%">
+          </div>
+          
+          <div class="box">
+            <p>50% of our team members are interested in cybersecurity as an ethical hacker, and penetration tester. The other 50% group are interested in Application development as a web app and mobile app development.  
+                According to the U.S. Bureau Labor Statics (BLS 2021), the unemployment rate in Cybersecurity has been 0% since 2016 and predicted 35% growth rate between 2021 and 2031 which is a lot faster than average occupations. 
+                Also, the software development industry is growing faster than any other professionals.   
+                According to World Economic Forum (WEF 2020), the predicted Top 20 jobs increasing demand in future indicates Information Security Analysis followed by Software and Application Developers.  
+            </p>
+          </div>
+        </div>
+      </div>
+
+    <div id="IT_SKILLS" class="tabcontent">
+        <div class="container1">
+          <div class="box">
+            <h3></h3>
+            
+            <p> </p>
+          </div>
+          <div class="box">
+            <h3></h3>
+            
+          </div>
+          <div class="box">
+            <h3> </h3>
+            <p> </p>
+            <p> </p>  
+          </div>
+        
+        </div>
+    </div>
+     <div id="GENERAL_SKILL" class="tabcontent">
+        <div class="container1">
+            <div class="box">
+                <h3>Leadership </h3>
+                <p>Leadership is a highly sought-after skill that many employers seek. As many organisations and businesses have their employers working in a team, there will need to be someone there to organise, delegate and train employers to create more efficient work. </p>
+            </div>
+            <div class="box">
+                <h3>Teamwork </h3>
+                <p>This is an essential skill for multiple people working together as a group. Good teamwork can produce better work at a faster rate. For teamwork to work efficiently, skills such as good communication are required. </p>
+            </div>
+            
+        </div>
+     </div>
+
+     
+
+      <div id="FEEDBACK" class="tabcontent">
+        <div class="container1">
+          <div class="box">
+            <h3>Minnie</h3>
+            <p>Cybersecurity is rapidly growing and will grow more in the future. 
+                Ethical hackers are intelligent individuals with excellent computer skills, along with the ability to create and explore the computer software which required many years of training and studying. 
+                The markets need ethical hackers more as the data size grows and expand virtual world. 
+                Therefore, I believe I am at the right place at the right time to start new career.  </p>
+          </div>
+          <div class="box">
+            <h3>Niroshini</h3>  
+            <p>I believe there is always a need for web developers as online platforms increase. 
+                Moreover, coding is something I indeed like it. 
+                So, learning the relevant skills will help me to achieve my ideal job.   </p>  
+          </div> 
+          <div class="box">
+            <h3>Travis </h3>
+            <p>There is a gap in the market for Cyber security professionals and believe completing the right qualifications will make it easier to get into the industry.  </p>
+          </div>
+          <div class="box">
+            <h3>Yumna </h3>
+            <p>Mobile app developers and software developers are in high demand these days, thus far, throughout my work experience in a project, 
+                I have enjoyed exploring HTML and CSS as well as some new IT applications and I see a bright future in this field, so I want to keep this as my ideal job.  </p>
+          </div>
+        </div>
+      </div>
+
+       <script>
+       function openPage(pageName,elmnt,color) {
+         var i, tabcontent, tablinks;
+         tabcontent = document.getElementsByClassName("tabcontent");
+         for (i = 0; i < tabcontent.length; i++) {
+           tabcontent[i].style.display = "none";
+         }
+         tablinks = document.getElementsByClassName("tablink");
+         for (i = 0; i < tablinks.length; i++) {
+           tablinks[i].style.backgroundColor = "";
+         }
+         document.getElementById(pageName).style.display = "block";
+         elmnt.style.backgroundColor = color;
+       }
+
+       // Get the element with id="defaultOpen" and click on it
+       document.getElementById("defaultOpen").click();
+       </script>
+
+    </body>
+</html>
+

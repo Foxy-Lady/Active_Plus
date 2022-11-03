@@ -1,0 +1,92 @@
+body, html {
+    background: white;
+    margin: 0;
+    padding: 0;
+    height: 100%
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    /* reference : w3shcools.com/howto */
+    .topnav {
+        overflow: hidden;
+    }
+    /* style the links inside of the topnav */
+    .topnav a{
+        float: left;
+        color: #454446;
+        text-align: center;
+        padding: 15px 30px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    /* hover: change the color when mouse sits */
+    .topnav a:hover {
+        background-color: #454446;
+        color: white;
+    }
+    .container{
+        position: relative;
+        width: 100%; 
+        margin: 0px;
+     }
+    .container1 .box{
+        position: relative;
+        width: 18%;
+        float: left;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin: 20px;
+        margin-top: -10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    
+    .box h3{
+        text-align: center;
+        border: 15px;
+        margin-bottom: 15px;
+        color: rgb(71, 68, 68);
+    
+    }
+       * {box-sizing: border-box} 
+       
+       /* Style tab links */
+       .tablink {
+         background-color: #555;
+         color: white;
+         float: left;
+         border: none;
+         outline: none;
+         cursor: pointer;
+         padding: 14px 16px;
+         font-size: 16px;
+         width: 25%;
+       }
+       
+       .tablink:hover {
+         background-color: #777;
+       }
+       
+       /* Style the tab content (and add height:100% for full page content) */
+       .tabcontent {
+         color: white;
+         display: none;
+         padding: 100px 20px;
+         height: 100%;
+       }
+       
+       #Active_Plus {background-color: #f59e0b}
+       #IT_SKILLS {background-color: #e76a7f;}
+       #GENERAL_SKILL {background-color: #ac87ff;}
+       
+       #FEEDBACK{background-color: #2dd4bf;}
+      
+
+
